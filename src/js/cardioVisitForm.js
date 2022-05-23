@@ -8,7 +8,7 @@ export default class CardioVisitForm extends VisitForm {
             <input class="forms-inputs__item pressure-input"
               placeholder="Обычное давление"
               autocomplete="off"
-              type="text"
+              type="number"
             />
           </div>`
     );
@@ -38,7 +38,7 @@ export default class CardioVisitForm extends VisitForm {
             <input class="forms-inputs__item age-input"
               placeholder="Возраст"
               autocomplete="off"
-              type="text"
+              type="number"
             />
           </div>`
     );

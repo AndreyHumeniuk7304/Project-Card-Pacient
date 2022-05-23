@@ -9,7 +9,7 @@ export default class DentistVisitForm extends VisitForm {
             <input class="forms-inputs__item last-visit-input"
               placeholder="Дата последнего визита"
               autocomplete="off"
-              type="text"
+              type="number"
             />
           </div>`
     );
